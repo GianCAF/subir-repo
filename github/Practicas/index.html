@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/JS/ejercicio1.js"></script>
+    <script src="/JS/ejercicio2.js"></script>
+    <script src="/JS/ejercicio3.js"></script>
+    <script src="/JS/ejercicio4.js"></script>
+    <script src="/JS/ejercicio5.js"></script>
+    <script src="/JS/ejercicio6.js"></script>
+    <script src="/JS/ejercicio1_test.js"></script>
+    <script src="/JS/ejercicio2_Test.js"></script>
+    <script src="/JS/ejercicio3_Test.js"></script>
+    <script src="/JS/ejercicio4_Test.js"></script>
+    <script src="/JS/ejercicio5_Test.js"></script>
+    <script src="/JS/ejercicio6_Test.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejercicios</h1>
+    <br>
+    <h2>Problema 1</h2>
+    <img src="/imagenes/Diagrama1.png" alt="" width="250" height="250" center>
+    <h2>código que lo resuelve</h2>
+    <h2>Código del test</h2>
+    <p>console.log("EJercicio 1 test");
+
+        const ejercicio1Data = [
+          [5, 7, 48],
+          [6, 9, 75],
+          [8, 4, 48],
+          [9, 3, 48],
+          [7, -4, 3]
+        ];
+        
+        ejercicio1Data.forEach(element => {  
+          const rTest = opAritmetica(element[0], element[1]);
+        
+          console.log(rTest === element[2] ? "🟢" : "❌", 
+                      rTest, " | ", 
+                      element[2] 
+                      );              
+        });</p>
+    <br>
+    <h2>Problema 2</h2>
+    <img src="/imagenes/Diagrama1.png" alt="" width="250" height="250" center>
+    <h2>código que lo resuelve</h2>
+    <h2>Código del test</h2>
+    <p>console.log("Ejercicio 2 test");
+
+        const promedioStudentData = [
+          [10211233, [100, 70, 82, 50, 30, 90], "10211233 70.33"],
+          [222223345, [95, 80, 59, 72, 65, 72], "222223345 73.83"],
+          [22011981, [67, 19, 31, 94, 89, 99], "22011981 66.50"],
+          [220111027, [57, 88, 98, 85, 69, 0], "220111027 66.17"]
+        ];
+        
+        
+        promedioStudentData.forEach(element => {  
+          const cadTest = promedioStudent(element[0], element[1]);
+        
+          console.log(cadTest === element[2] ? "🟢" : "❌", 
+                      cadTest, " | ", 
+                      element[2] 
+                      );              
+        });</p>
+    <br>
+    <h2>Problema 3</h2>
+    <img src="" alt="" height="">
+    <h2>código que lo resuelve</h2>
+    <h2>Código del test</h2>
+    <p></p>
+    <br>
+    <h2>Problema 4</h2>
+    <img src="" alt="" height="">
+    <h2>código que lo resuelve</h2>
+    <h2>Código del test</h2>
+    <p></p>
+    <br>
+    <h2>Problema 5</h2>
+    <img src="/imagenes/Diagrama5.png" alt="" width="250" height="250" center>
+    <h2>código que lo resuelve</h2>
+    <h2>Código del test</h2>
+    <p></p>
+    <br>
+    <h2>Problema 6</h2>
+    <img src="/imagenes/Diagrama6.png" alt="" width="250" height="250" center>
+    <h2>código que lo resuelve</h2>
+    <h2>Código del test</h2>
+    <p></p>
+</body>
+</html>
